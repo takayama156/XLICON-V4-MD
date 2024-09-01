@@ -18,6 +18,24 @@
       "uang": 10000,
       "lastclaim": 1725112930135,
       "lastrampok": 1725112930135
+    },
+    "6281333671408@s.whatsapp.net": {
+      "vip": false,
+      "afkTime": -1,
+      "afkReason": "",
+      "limit": 100,
+      "uang": 10000,
+      "lastclaim": 1725181474206,
+      "lastrampok": 1725181474206
+    },
+    "6282172481471@s.whatsapp.net": {
+      "vip": false,
+      "afkTime": -1,
+      "afkReason": "",
+      "limit": 100,
+      "uang": 10000,
+      "lastclaim": 1725181569924,
+      "lastrampok": 1725181569924
     }
   },
   "groups": {
