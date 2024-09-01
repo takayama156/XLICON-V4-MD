@@ -944,7 +944,7 @@ forwardingScore: 999,
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
 newsletterName: "Click here to get $69",
-newsletterJid: "120363232303807350@newsletter",
+newsletterJid: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
 },
 externalAdReply: {  
 showAdAttribution: true,
