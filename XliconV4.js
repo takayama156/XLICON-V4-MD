@@ -522,7 +522,7 @@ XliconBotInc.sendMessage(m.chat, {text:`\`\`\`「 Promotion Detected 」\`\`\`\n
 			            participant: m.key.participant
 			        }
 			    })
-			XliconBotInc.sendMessage(m.chat, {text:`\`\`\`「 Bad Word Detected 」\`\`\`\n\n@${m.sender.split("@")[0]} was using harsh words and his chat has been deleted`, contextInfo:{mentionedJid:[m.sender]}}, {quoted:m})
+			XliconBotInc.sendMessage(m.chat, {text:`\`\`\`「 Bad Word Detected 」\`\`\`\n\n@${m.sender.split("@")[0]} kok gitu`, contextInfo:{mentionedJid:[m.sender]}}, {quoted:m})
                }
             }
         }
@@ -950,7 +950,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: botname,
 body: ownername,
-thumbnailUrl: 'https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg',
+thumbnailUrl: './XliconMedia/theme/XliconPic.jpg',
 sourceUrl: websitex
 },
 },
@@ -1007,22 +1007,22 @@ const xdate = moment.tz('Asia/Karachi').locale('en-IN').format('DD/MM/YYYY');
 const xtime = moment().tz('Asia/Karachi').locale('en-IN').format('HH:mm:ss');
 const time2 = moment().tz('Asia/Karachi').format('HH:mm:ss')  
 if(time2 < "23:59:00"){
-var xliconytimewisher = `Good Night 🌌`
+var xliconytimewisher = `Turu Coek🌌`
  }
  if(time2 < "19:00:00"){
-var xliconytimewisher = `Good Evening 🌃`
+var xliconytimewisher = `Malam Masbro 🌃`
  }
  if(time2 < "18:00:00"){
-var xliconytimewisher = `Good Evening 🌃`
+var xliconytimewisher = `Sore Masbro 🌃`
  }
  if(time2 < "15:00:00"){
-var xliconytimewisher = `Good Afternoon 🌅`
+var xliconytimewisher = `Lah Dah Sore 🌅`
  }
  if(time2 < "11:00:00"){
-var xliconytimewisher = `Good Morning 🌄`
+var xliconytimewisher = `Pagi Lort 🌄`
  }
  if(time2 < "05:00:00"){
-var xliconytimewisher = `Good Morning 🌄`
+var xliconytimewisher = `Pagi Lort 🌄`
  } 
 
 //theme txt
@@ -1263,7 +1263,7 @@ async function xliconkillpic(target, kuwoted) {
       header: {
         title: "𝙎𝙖𝙡𝙢𝙖𝙣 𝘼𝙝𝙢𝙖𝙙",
         hasMediaAttachment: true,
-        ...(await prepareWAMessageMedia({ image: { url: "https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg" } }, { upload: XliconBotInc.waUploadToServer }))
+        ...(await prepareWAMessageMedia({ image: { url: "./XliconMedia/theme/XliconPic.jpg" } }, { upload: XliconBotInc.waUploadToServer }))
       },
       body: {
         text: ""
@@ -14560,7 +14560,7 @@ let sngContact = {
 XliconBotInc.sendMessage(m.chat, {contacts: sngContact, mentions: participants.map(a => a.id)}, {ephemeralExpiration: 86400})
 }
 break
-			case 'kickall': {
+			case 'kickalldjdj': {
  if (!m.isGroup) return XliconStickGroup()
  if (!m.isAdmin && !XliconTheCreator) return XliconStickAdmin()
  if (!m.isBotAdmin) return XliconStickBotAdmin()
@@ -16835,7 +16835,7 @@ break
                                 showAdAttribution: true,
                                 title: botname,
                                 body: `Sent in ${i.length} Group`,
-                                thumbnailUrl: 'https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg',
+                                thumbnailUrl: './XliconMedia/theme/XliconPic.jpg',
                                 sourceUrl: wagc,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
@@ -19495,7 +19495,6 @@ break
 │${setv} ${prefix}databasemenu
 │${setv} ${prefix}storemenu
 │${setv} ${prefix}stalkermenu
-│${setv} ${prefix}bugmenu
 │${setv} ${prefix}othermenu
 ╰──────❍`
 if (typemenu === 'v1') {
@@ -19595,7 +19594,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg',
+      thumbnailUrl: './XliconMedia/theme/XliconPic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -19620,7 +19619,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg",
+thumbnailUrl: "./XliconMedia/theme/XliconPic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -19862,8 +19861,6 @@ let msg = generateWAMessageFromContent(m.chat, {
 "title":"click to display",
 "description":"Displays The List Of Stalk Features",
 "id":"${prefix}stalkermenu"},
-{"header":"BUG MENU",
-"title":"click to display",
 "description":"Displays The List Of Bug Features",
 "id":"${prefix}bugmenu"},
 {"header":"OTHER MENU",
@@ -19875,27 +19872,7 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@s4salmanyt\",\"merchant_url\":\"https://www.google.com\"}"
-              },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xliconbotinc\",\"merchant_url\":\"https://www.google.com\"}"
-              },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/salmanytofficial\",\"merchant_url\":\"https://www.google.com\"}"
-              },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaINgEZK0IBaK1nDtE3f\",\"merchant_url\":\"https://www.google.com\"}"
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+                 "buttonParamsJson": "{\"display_text\":\"Tentang\",\"url\":\"https://www.youtube.com/watch?v=dQw4w9WgXcQ\",\"merchant_url\":\"https://www.google.com\"}"
               }
            ],
           }),
@@ -20045,7 +20022,6 @@ let xmenu_oh = `
 │${setv} ${prefix}kick 🅖
 │${setv} ${prefix}promote 🅖
 │${setv} ${prefix}demote 🅖
-│${setv} ${prefix}kickall 🅖
 │${setv} ${prefix}promoteall 🅖
 │${setv} ${prefix}demoteall 🅖
 │${setv} ${prefix}getcontact 🅞
@@ -20542,16 +20518,16 @@ let xmenu_oh = `
 │${setv} ${prefix}assalamualaikum 🅕
 ╰─┬────❍
 ╭─┴❍「 *Bug & War* 」❍
-│${setv} ${prefix}xandroid 🅞
-│${setv} ${prefix}xandroid2 🅞
-│${setv} ${prefix}xios 🅞
-│${setv} ${prefix}xios2 🅞
-│${setv} ${prefix}systemuicrash 🅞
-│${setv} ${prefix}xsysui 🅞
-│${setv} ${prefix}🙂 🅞
-│${setv} ${prefix}ioskill 🅞
-│${setv} ${prefix}onekill 🅞
-│${setv} ${prefix}xgcmem 🅞
+│
+│
+│
+│
+│🤓
+│
+│
+│
+│
+│
 ╰─┬────❍
 ╭─┴❍「 *Other* 」❍
 │${setv} ${prefix}update 🅕
@@ -20672,7 +20648,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg',
+      thumbnailUrl: './XliconMedia/theme/XliconPic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -20698,7 +20674,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg",
+thumbnailUrl: "./XliconMedia/theme/XliconPic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -20878,27 +20854,7 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@s4salmanyt\",\"merchant_url\":\"https://www.google.com\"}"
-              },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xliconbotinc\",\"merchant_url\":\"https://www.google.com\"}"
-              },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/salmanytofficial\",\"merchant_url\":\"https://www.google.com\"}"
-              },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaINgEZK0IBaK1nDtE3f\",\"merchant_url\":\"https://www.google.com\"}"
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+                 "buttonParamsJson": "{\"display_text\":\"Tentang\",\"url\":\"https://www.youtube.com/watch?v=dQw4w9WgXcQ\",\"merchant_url\":\"https://www.google.com\"}"
               }
            ],
           }),
@@ -21112,7 +21068,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg',
+      thumbnailUrl: './XliconMedia/theme/XliconPic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -21138,7 +21094,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg",
+thumbnailUrl: "./XliconMedia/theme/XliconPic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -21318,7 +21274,7 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@s4salmanyt\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://www.youtube.com/watch?v=dQw4w9WgXcQ\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -21408,7 +21364,6 @@ let xmenu_oh = `
 │${setv} ${prefix}kick 🅖
 │${setv} ${prefix}promote 🅖
 │${setv} ${prefix}demote 🅖
-│${setv} ${prefix}kickall 🅖
 │${setv} ${prefix}promoteall 🅖
 │${setv} ${prefix}demoteall 🅖
 │${setv} ${prefix}getcontact 🅞
@@ -21531,7 +21486,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg',
+      thumbnailUrl: './XliconMedia/theme/XliconPic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -21557,7 +21512,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg",
+thumbnailUrl: "./XliconMedia/theme/XliconPic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -21903,7 +21858,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg',
+      thumbnailUrl: './XliconMedia/theme/XliconPic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -21929,7 +21884,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg",
+thumbnailUrl: "./XliconMedia/theme/XliconPic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -22291,7 +22246,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg',
+      thumbnailUrl: './XliconMedia/theme/XliconPic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -22317,7 +22272,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg",
+thumbnailUrl: "./XliconMedia/theme/XliconPic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -22696,7 +22651,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg',
+      thumbnailUrl: './XliconMedia/theme/XliconPic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -22722,7 +22677,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg",
+thumbnailUrl: "./XliconMedia/theme/XliconPic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -22949,8 +22904,8 @@ await XliconBotInc.relayMessage(msg.key.remoteJid, msg.message, {
 break
 case 'listmenu': {
 let xmenu_oh = `
-╭──❍「 *GREETING* 」❍
-├ *Hi 👋*
+╭──❍「 *Aji Ramadhan* 」❍
+├ *Allo*
 ├ *${m.pushName}* 
 ├ *${xliconytimewisher} 😄* 
 ╰─┬────❍ ${readmore}
@@ -23070,7 +23025,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg',
+      thumbnailUrl: './XliconMedia/theme/XliconPic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -23096,7 +23051,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg",
+thumbnailUrl: "./XliconMedia/theme/XliconPic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -23489,7 +23444,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg',
+      thumbnailUrl: './XliconMedia/theme/XliconPic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -23515,7 +23470,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg",
+thumbnailUrl: "./XliconMedia/theme/XliconPic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -23859,7 +23814,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg',
+      thumbnailUrl: './XliconMedia/theme/XliconPic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -23885,7 +23840,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg",
+thumbnailUrl: "./XliconMedia/theme/XliconPic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -24225,7 +24180,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg',
+      thumbnailUrl: './XliconMedia/theme/XliconPic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -24251,7 +24206,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg",
+thumbnailUrl: "./XliconMedia/theme/XliconPic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -24608,7 +24563,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg',
+      thumbnailUrl: './XliconMedia/theme/XliconPic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -24634,7 +24589,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg",
+thumbnailUrl: "./XliconMedia/theme/XliconPic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -24984,7 +24939,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg',
+      thumbnailUrl: './XliconMedia/theme/XliconPic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -25010,7 +24965,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg",
+thumbnailUrl: "./XliconMedia/theme/XliconPic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -25411,7 +25366,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg',
+      thumbnailUrl: './XliconMedia/theme/XliconPic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -25437,7 +25392,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg",
+thumbnailUrl: "./XliconMedia/theme/XliconPic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -25780,7 +25735,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg',
+      thumbnailUrl: './XliconMedia/theme/XliconPic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -25806,7 +25761,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg",
+thumbnailUrl: "./XliconMedia/theme/XliconPic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -26278,7 +26233,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg',
+      thumbnailUrl: './XliconMedia/theme/XliconPic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -26304,7 +26259,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg",
+thumbnailUrl: "./XliconMedia/theme/XliconPic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -26658,7 +26613,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg',
+      thumbnailUrl: './XliconMedia/theme/XliconPic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -26684,7 +26639,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg",
+thumbnailUrl: "./XliconMedia/theme/XliconPic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -27028,7 +26983,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg',
+      thumbnailUrl: './XliconMedia/theme/XliconPic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -27054,7 +27009,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg",
+thumbnailUrl: "./XliconMedia/theme/XliconPic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -27395,7 +27350,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg',
+      thumbnailUrl: './XliconMedia/theme/XliconPic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -27421,7 +27376,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg",
+thumbnailUrl: "./XliconMedia/theme/XliconPic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -27777,7 +27732,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg',
+      thumbnailUrl: './XliconMedia/theme/XliconPic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -27803,7 +27758,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg",
+thumbnailUrl: "./XliconMedia/theme/XliconPic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -28041,15 +27996,15 @@ let xmenu_oh = `
 ├ *🅟 = For Premium User*
 ╰─┬────❍
 ╭─┴❍「 *Bug & War* 」❍
-│${setv} ${prefix}xandroid 🅞
-│${setv} ${prefix}xandroid2 🅞
-│${setv} ${prefix}xios 🅞
-│${setv} ${prefix}xios2 🅞
-│${setv} ${prefix}systemuicrash 🅞
-│${setv} ${prefix}xsysui 🅞
-│${setv} ${prefix}🙂 🅞
-│${setv} ${prefix}ioskill 🅞
-│${setv} ${prefix}onekill 🅞
+│
+│
+│
+│
+│🤓
+│
+│
+│
+│
 ╰──────❍`
 if (typemenu === 'v1') {
                     XliconBotInc.sendMessage(m.chat, {
@@ -28148,7 +28103,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg',
+      thumbnailUrl: './XliconMedia/theme/XliconPic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -28174,7 +28129,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg",
+thumbnailUrl: "./XliconMedia/theme/XliconPic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -28530,7 +28485,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg',
+      thumbnailUrl: './XliconMedia/theme/XliconPic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -28556,7 +28511,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg",
+thumbnailUrl: "./XliconMedia/theme/XliconPic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
