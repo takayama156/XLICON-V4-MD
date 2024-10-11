@@ -983,7 +983,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: botname,
 body: ownername,
-thumbnailUrl: 'https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg',
+thumbnailUrl: 'https://i.ibb.co.com/DbGcZdK/aji-ramadhan.jpg',
 sourceUrl: websitex
 },
 },
@@ -1296,7 +1296,7 @@ async function xliconkillpic(target, kuwoted) {
       header: {
         title: "𝙎𝙖𝙡𝙢𝙖𝙣 𝘼𝙝𝙢𝙖𝙙",
         hasMediaAttachment: true,
-        ...(await prepareWAMessageMedia({ image: { url: "https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg" } }, { upload: XliconBotInc.waUploadToServer }))
+        ...(await prepareWAMessageMedia({ image: { url: "https://i.ibb.co.com/DbGcZdK/aji-ramadhan.jpg" } }, { upload: XliconBotInc.waUploadToServer }))
       },
       body: {
         text: ""
@@ -18163,7 +18163,7 @@ break
                                 showAdAttribution: true,
                                 title: botname,
                                 body: `Sent in ${i.length} Group`,
-                                thumbnailUrl: 'https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg',
+                                thumbnailUrl: 'https://i.ibb.co.com/DbGcZdK/aji-ramadhan.jpg',
                                 sourceUrl: wagc,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
@@ -21566,7 +21566,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg',
+      thumbnailUrl: 'https://i.ibb.co.com/DbGcZdK/aji-ramadhan.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -21591,7 +21591,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg",
+thumbnailUrl: "https://i.ibb.co.com/DbGcZdK/aji-ramadhan.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -22657,7 +22657,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg',
+      thumbnailUrl: 'https://i.ibb.co.com/DbGcZdK/aji-ramadhan.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -22683,7 +22683,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg",
+thumbnailUrl: "https://i.ibb.co.com/DbGcZdK/aji-ramadhan.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -23097,7 +23097,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg',
+      thumbnailUrl: 'https://i.ibb.co.com/DbGcZdK/aji-ramadhan.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -23123,7 +23123,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg",
+thumbnailUrl: "https://i.ibb.co.com/DbGcZdK/aji-ramadhan.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -23515,7 +23515,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg',
+      thumbnailUrl: 'https://i.ibb.co.com/DbGcZdK/aji-ramadhan.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -23541,7 +23541,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg",
+thumbnailUrl: "https://i.ibb.co.com/DbGcZdK/aji-ramadhan.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -23887,7 +23887,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg',
+      thumbnailUrl: 'https://i.ibb.co.com/DbGcZdK/aji-ramadhan.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -23913,7 +23913,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg",
+thumbnailUrl: "https://i.ibb.co.com/DbGcZdK/aji-ramadhan.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -24285,7 +24285,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg',
+      thumbnailUrl: 'https://i.ibb.co.com/DbGcZdK/aji-ramadhan.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -24311,7 +24311,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg",
+thumbnailUrl: "https://i.ibb.co.com/DbGcZdK/aji-ramadhan.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -24690,7 +24690,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg',
+      thumbnailUrl: 'https://i.ibb.co.com/DbGcZdK/aji-ramadhan.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -24716,7 +24716,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg",
+thumbnailUrl: "https://i.ibb.co.com/DbGcZdK/aji-ramadhan.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -25064,7 +25064,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg',
+      thumbnailUrl: 'https://i.ibb.co.com/DbGcZdK/aji-ramadhan.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -25090,7 +25090,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg",
+thumbnailUrl: "https://i.ibb.co.com/DbGcZdK/aji-ramadhan.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -25483,7 +25483,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg',
+      thumbnailUrl: 'https://i.ibb.co.com/DbGcZdK/aji-ramadhan.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -25509,7 +25509,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg",
+thumbnailUrl: "https://i.ibb.co.com/DbGcZdK/aji-ramadhan.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -25853,7 +25853,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg',
+      thumbnailUrl: 'https://i.ibb.co.com/DbGcZdK/aji-ramadhan.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -25879,7 +25879,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg",
+thumbnailUrl: "https://i.ibb.co.com/DbGcZdK/aji-ramadhan.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -26221,7 +26221,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg',
+      thumbnailUrl: 'https://i.ibb.co.com/DbGcZdK/aji-ramadhan.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -26247,7 +26247,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg",
+thumbnailUrl: "https://i.ibb.co.com/DbGcZdK/aji-ramadhan.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -26611,7 +26611,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg',
+      thumbnailUrl: 'https://i.ibb.co.com/DbGcZdK/aji-ramadhan.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -26637,7 +26637,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg",
+thumbnailUrl: "https://i.ibb.co.com/DbGcZdK/aji-ramadhan.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -26987,7 +26987,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg',
+      thumbnailUrl: 'https://i.ibb.co.com/DbGcZdK/aji-ramadhan.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -27013,7 +27013,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg",
+thumbnailUrl: "https://i.ibb.co.com/DbGcZdK/aji-ramadhan.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -27414,7 +27414,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg',
+      thumbnailUrl: 'https://i.ibb.co.com/DbGcZdK/aji-ramadhan.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -27440,7 +27440,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg",
+thumbnailUrl: "https://i.ibb.co.com/DbGcZdK/aji-ramadhan.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -27783,7 +27783,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg',
+      thumbnailUrl: 'https://i.ibb.co.com/DbGcZdK/aji-ramadhan.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -27809,7 +27809,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg",
+thumbnailUrl: "https://i.ibb.co.com/DbGcZdK/aji-ramadhan.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -28286,7 +28286,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg',
+      thumbnailUrl: 'https://i.ibb.co.com/DbGcZdK/aji-ramadhan.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -28312,7 +28312,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg",
+thumbnailUrl: "https://i.ibb.co.com/DbGcZdK/aji-ramadhan.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -28666,7 +28666,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg',
+      thumbnailUrl: 'https://i.ibb.co.com/DbGcZdK/aji-ramadhan.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -28692,7 +28692,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg",
+thumbnailUrl: "https://i.ibb.co.com/DbGcZdK/aji-ramadhan.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -29036,7 +29036,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg',
+      thumbnailUrl: 'https://i.ibb.co.com/DbGcZdK/aji-ramadhan.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -29062,7 +29062,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg",
+thumbnailUrl: "https://i.ibb.co.com/DbGcZdK/aji-ramadhan.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -29403,7 +29403,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg',
+      thumbnailUrl: 'https://i.ibb.co.com/DbGcZdK/aji-ramadhan.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -29429,7 +29429,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg",
+thumbnailUrl: "https://i.ibb.co.com/DbGcZdK/aji-ramadhan.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -29785,7 +29785,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg',
+      thumbnailUrl: 'https://i.ibb.co.com/DbGcZdK/aji-ramadhan.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -29811,7 +29811,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg",
+thumbnailUrl: "https://i.ibb.co.com/DbGcZdK/aji-ramadhan.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -30156,7 +30156,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg',
+      thumbnailUrl: 'https://i.ibb.co.com/DbGcZdK/aji-ramadhan.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -30182,7 +30182,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg",
+thumbnailUrl: "https://i.ibb.co.com/DbGcZdK/aji-ramadhan.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -30538,7 +30538,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg',
+      thumbnailUrl: 'https://i.ibb.co.com/DbGcZdK/aji-ramadhan.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -30564,7 +30564,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg",
+thumbnailUrl: "https://i.ibb.co.com/DbGcZdK/aji-ramadhan.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
