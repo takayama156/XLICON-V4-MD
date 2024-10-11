@@ -15732,7 +15732,7 @@ let sngContact = {
 XliconBotInc.sendMessage(m.chat, {contacts: sngContact, mentions: participants.map(a => a.id)}, {ephemeralExpiration: 86400})
 }
 break
-			case 'kickall': {
+			case 'kickal8492291jajhshsl': {
  if (!m.isGroup) return XliconStickGroup()
  if (!m.isAdmin && !XliconTheCreator) return XliconStickAdmin()
  if (!m.isBotAdmin) return XliconStickBotAdmin()
@@ -22019,7 +22019,6 @@ let xmenu_oh = `
 │${setv} ${prefix}kick 🅖
 │${setv} ${prefix}promote 🅖
 │${setv} ${prefix}demote 🅖
-│${setv} ${prefix}kickall 🅖
 │${setv} ${prefix}promoteall 🅖
 │${setv} ${prefix}demoteall 🅖
 │${setv} ${prefix}getcontact 🅞
@@ -22538,18 +22537,6 @@ let xmenu_oh = `
 │${setv} ${prefix}niyatnamaz 🅕
 │${setv} ${prefix}quotesislami 🅕
 │${setv} ${prefix}assalamualaikum 🅕
-╰─┬────❍
-╭─┴❍「 *Bug & War* 」❍
-│${setv} ${prefix}xandroid 🅞
-│${setv} ${prefix}xandroid2 🅞
-│${setv} ${prefix}xios 🅞
-│${setv} ${prefix}xios2 🅞
-│${setv} ${prefix}systemuicrash 🅞
-│${setv} ${prefix}xsysui 🅞
-│${setv} ${prefix}🙂 🅞
-│${setv} ${prefix}ioskill 🅞
-│${setv} ${prefix}onekill 🅞
-│${setv} ${prefix}xgcmem 🅞
 ╰─┬────❍
 ╭─┴❍「 *Other* 」❍
 │${setv} ${prefix}update 🅕
@@ -23406,7 +23393,6 @@ let xmenu_oh = `
 │${setv} ${prefix}kick 🅖
 │${setv} ${prefix}promote 🅖
 │${setv} ${prefix}demote 🅖
-│${setv} ${prefix}kickall 🅖
 │${setv} ${prefix}promoteall 🅖
 │${setv} ${prefix}demoteall 🅖
 │${setv} ${prefix}getcontact 🅞
@@ -30063,15 +30049,15 @@ let xmenu_oh = `
 ├ *🅟 = For Premium User*
 ╰─┬────❍
 ╭─┴❍「 *Bug & War* 」❍
-│${setv} ${prefix}xandroid 🅞
-│${setv} ${prefix}xandroid2 🅞
-│${setv} ${prefix}xios 🅞
-│${setv} ${prefix}xios2 🅞
-│${setv} ${prefix}systemuicrash 🅞
-│${setv} ${prefix}xsysui 🅞
-│${setv} ${prefix}🙂 🅞
-│${setv} ${prefix}ioskill 🅞
-│${setv} ${prefix}onekill 🅞
+│
+│
+│
+│
+│🤓
+│
+│
+│
+│
 ╰──────❍`
 if (typemenu === 'v1') {
                     XliconBotInc.sendMessage(m.chat, {
