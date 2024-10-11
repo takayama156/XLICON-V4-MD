@@ -1040,22 +1040,22 @@ const xdate = moment.tz('Asia/Karachi').locale('en-IN').format('DD/MM/YYYY');
 const xtime = moment().tz('Asia/Karachi').locale('en-IN').format('HH:mm:ss');
 const time2 = moment().tz('Asia/Karachi').format('HH:mm:ss')  
 if(time2 < "23:59:00"){
-var xliconytimewisher = `Good Night 🌌`
+var xliconytimewisher = `Tidur Coek 🌌`
  }
  if(time2 < "19:00:00"){
-var xliconytimewisher = `Good Evening 🌃`
+var xliconytimewisher = `Malam Sayank 🌃`
  }
  if(time2 < "18:00:00"){
-var xliconytimewisher = `Good Evening 🌃`
+var xliconytimewisher = `Malam Sayank 🌃`
  }
  if(time2 < "15:00:00"){
-var xliconytimewisher = `Good Afternoon 🌅`
+var xliconytimewisher = `Sore Lord 🌅`
  }
  if(time2 < "11:00:00"){
-var xliconytimewisher = `Good Morning 🌄`
+var xliconytimewisher = `Siang Lord 🌄`
  }
  if(time2 < "05:00:00"){
-var xliconytimewisher = `Good Morning 🌄`
+var xliconytimewisher = `Pagi Lord 🌄`
  } 
 
 //theme txt
