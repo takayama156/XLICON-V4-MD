@@ -39,31 +39,31 @@ const fs = require('fs');
 const chalk = require('chalk');
 
 //owmner v card
-global.ytname = "YT: S4 SALMAN YT" //ur yt chanel name
-global.socialm = "GitHub: salmanytofficial" //ur github or insta name
+global.ytname = "1Peace" //ur yt chanel name
+global.socialm = "Aji Corp" //ur github or insta name
 global.location = "Pakistan, Lahore, Sabzazar" //ur location
 
 //new
-global.botname = 'XLICON-V4-MD' //ur bot name
-global.ownernumber = ['923184070915'] //ur owner number, dont add more than one
+global.botname = 'Aji Ramadhan' //ur bot name
+global.ownernumber = ['6289519677410'] //ur owner number, dont add more than one
 global.ownername = '𝙎𝙖𝙡𝙢𝙖𝙣 𝘼𝙝𝙢𝙖𝙙' //ur owner name
 global.websitex = "https://youtube.com/@s4salmanyt"
-global.wagc = "https://whatsapp.com/channel/0029VaINgEZK0IBaK1nDtE3f"
-global.themeemoji = '⛩'
-global.wm = "Xlicon Bot Inc."
+global.wagc = "https://chat.whatsapp.com/Ds6F8SOeSub5q9xz5SeGWe"
+global.themeemoji = '月'
+global.wm = "1CAK Peace Services"
 global.botscript = 'https://github.com/salmanytofficial/XLICON-V4-MD' //script link
-global.packname = "𝘼𝙃𝙃𝙈𝙄 𝙆𝙐𝙉"
-global.author = "MΛDΣ BY 𝙎𝘼𝙇𝙈𝘼𝙉 𝘼𝙃𝙈𝘼𝘿"
-global.creator = "923184070915@s.whatsapp.net"
+global.packname = "Bakwan"
+global.author = "Ananas Das"
+global.creator = "6289519677410@s.whatsapp.net"
 global.xprefix = '.'
-global.premium = ["923184070915"] // Premium User
+global.premium = ["6289519677410"] // Premium User
 
 //bot sett
-global.typemenu = 'v12' // menu type 'v1' => 'v12'
-global.typereply = 'v4' // reply type 'v1' => 'v4'
+global.typemenu = 'v1' // menu type 'v1' => 'v12'
+global.typereply = 'v1' // reply type 'v1' => 'v4'
 global.autoblocknumber = '212' //set autoblock country code
 global.antiforeignnumber = '91' //set anti foreign number country code
-global.antidelete = false //set anti delete 
+global.antidelete = true //set anti delete 
 
 
 global.listv = ['•','●','■','✿','▲','➩','➢','➣','➤','✦','✧','△','❀','○','□','♤','♡','◇','♧','々','〆']
@@ -84,9 +84,9 @@ global.uang = {
 }
 
 global.mess = {
-	error: 'Error!',
-	nsfw: 'Nsfw is disabled in this group, Please tell the admin to enable',
-	done: 'Done'
+	error: 'ERR! Kesalahan disisi Israel',
+	nsfw: 'Bilek',
+	done: 'Dah'
 }
 
 global.bot = {
